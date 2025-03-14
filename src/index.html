@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
     <title>Formulario  FINAL</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
     GRACIAS POR DEJAR SUS DATOS
     </p>
     <form id="survey-form">
-    fieldset>
+    
         <label id="name-label"
         >Name<input
             id="name"
@@ -36,9 +36,9 @@
             placeholder="Please enter your age"
             required
         /></label>
-        <label for="dropdown"
+        <label for="dropdownOne"
         >Choose an option
-        <select id="dropdown">
+        <select id="dropdownOne">
             <option value=" ">Select One Option</option>
             <option value="option1">Option A</option>
             <option value="option2">Option B</option>
@@ -136,5 +136,7 @@
     </fieldset>
     <input type="submit" id="submit" value="Submit" />
     </form>
+    <div id="message-container"></div>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
